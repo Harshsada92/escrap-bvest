@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="blog.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+        <div >
+          <nav class="navbar navbar-expand-lg" id="navigation">
+            <nav class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><button
+                  class="custom-btn btn-3"
+                  style="color: rgb(7, 10, 10)"
+                  id="scrap"
+                >
+                  <b>Escrap</b>
+                </button></a
+              >
+              </nav>
+            <nav class="navbar navbar-expand-lg" id="navigation2"></nav>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="home.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="home"
+                      ><b>Home</b></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="aboutus.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="about"
+                      ><b>About us</b></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="blog.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="blog"
+                      ><b>blog</b></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="buy.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="buy"
+                      ><b>buy/sell</b></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="index.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="contact"
+                      ><b>contact us</b></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="slider owl-carousel" id="blogcards">
+          <div class="card">
+            <div class="img">
+              <img src="ewastepro15.jpg" alt="" />
+            </div>
+            <div class="content">
+              
+              <div class="sub-title">Ready to recycle your obsolete IT equipment? We can help!</div>
+              <p>
+                Obsolete IT Equipment: What to Do With Old Computers That Still Work
+
+              </p>
+              <div class="btn">
+                <a href="https://www.ewaste1.com/recycle-old-computers-still-work/"><button>Read more</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="ewastepro16.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="sub-title">How to dispose of electronic</div>
+              <p>
+                E-waste, or electronic waste, is the waste that is created when an electronic product is put in the landfill rather than recycled. Despite the negative effects of improperly disposed of e-waste, many people are still ignorant about the best ways to get rid of this waste. Yet, many organizations are now devoted to spreading awareness 
+              </p>
+              <div class="btn">
+                <a href="https://gerecycle.com/where-to-dispose-of-electronics-when-you-have-no-clue-what-to-do/"><button>Read more</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="ewastepro17.png" alt="" />
+            </div>
+            <div class="content">
+              <div class="sub-title">How often do you buy a new phone?</div>
+              <p>
+                What do you do with your old phone, laptop or other electronics when they no longer serve you purpose? Do they stay tucked in a drawer somewhere in the house, do you sell it, throw it away or recycle it?
+              </p>
+              <div class="btn">
+                <a href="https://www.goclimate.com/blog/e-waste/"><button>Read more</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+          });
+        </script>
+    <div class="wrapper">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <footer>
+      <section class="contact">
+      <div class="layout">	 
+            <div class="text-center">
+              <h1 class="section-title">Wanna see of your junk?</h1>
+              <p>Get a junk collector at your doorsteps,no need to get out of your house to get rid of junks.Fill up the details and a junk collector will be there at your door</p>
+            </div>
+            <div class="grid-8 form">
+              <form action="php/email.php" method="post" id="contact_form" name="contactForm">
+                <div class="form-inline clearfix">
+                  <div class="form-group grid-6 ">
+                    <input type="text" placeholder="name" id="exampleInputName" name="name" class="form-control">
+                  </div>
+                  <div class="form-group grid-6">
+                    <input type="email" placeholder="email address" id="exampleInputEmail" name="email" class="form-control">
+                  </div>
+                  <div class="form-group grid-6">
+                    <input type="text" placeholder="address" id="exampleInputsaddress" name="address" class="form-control">
+                  </div>
+                  <div class="form-group grid-6">
+                    <input type="text" placeholder="number" id="exampleInputnumber" name="phone number" class="form-control">
+                  </div>
+                  <div class="form-group grid-12">
+                    <textarea placeholder="any landmark" id="exampleInputMessage" rows="3" name="any landmark?" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div style="display:none;" class="success" id="mail_success">Your message has been sent successfully.
+                  </div><!-- success message -->
+                  <div style="display:none;" class="error" id="mail_fail"> Sorry, error occured this time sending your message.
+                  </div><!-- error message -->
+                </div>
+                <div id="submit" class="form-group grid-12">
+                  <input type="submit" value="send" class="btn  btn-lg costom-btn" id="send_message">
+                </div>
+              </form>
+            </div> <!-- /.col-xs-12 .col-sm-offset-2 .col-sm-8 -->
+            <div class="grid-12">       
+              <div class="icon-text">
+                <span>find us on</span>
+              </div><!-- /.icon-text -->
+              <div class="icon-holder">
+                <ul>
+                  <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a target="_blank" href="#"><i class="fa fa-behance"></i></a></li>
+                  <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div><!-- /.icon-holder -->
+            </div><!-- /.col-xs-12 -->     
+      </div>	
+    </section>	
+    </footer>
+  </body>
+</html>
